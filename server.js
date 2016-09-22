@@ -22,7 +22,7 @@ app.use(middleware.logger);
 
 // ABOUT 
 app.get('/about', middleware.requireAuthentication, function (req, res) {
-	res.send('About Us');
+	res.send('About Us!!');
 });
 
 //expose an entire folder
